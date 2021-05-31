@@ -69,10 +69,10 @@ header{
 nav ul li{
     display: inline;
 }
-.Letter-Spacing{
+.Navbar-Head{
     letter-spacing: 1rem;
 }
-.Hina-Rinku{
+.Head-NavItems{
     height: 14.25px;
     width: 36.41666793823242px;
     left: 0px;
@@ -91,7 +91,7 @@ nav ul li{
     color: white;
 
 }
-.Hina-Rinku:hover{
+.Head-NavItems:hover{
     color: #64CF83;
     cursor: pointer;
 }
@@ -983,7 +983,7 @@ a:hover{
     .Options-Option2{
         order: 2;
     }
-    .Letter-Spacing{
+    .Navbar-Head{
         letter-spacing: .1rem;
     }
     .items-item2{
@@ -1436,7 +1436,7 @@ a:hover{
     .Options-Option2{
         order: 2;
     }
-    .Letter-Spacing{
+    .Navbar-Head{
         letter-spacing: .1rem;
     }
     .items-item2{
@@ -1646,7 +1646,7 @@ a:hover{
     .Options-Option2{
         order: 2;
     }
-    .Letter-Spacing{
+    .Navbar-Head{
         letter-spacing: .1rem;
     }
     .items-item2{
