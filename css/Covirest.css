@@ -961,7 +961,7 @@ a:hover{
     header{
         width: auto;
         height: 110px;
-        padding: 10px;
+        padding: 10px 105px;
 
     }
 
@@ -975,10 +975,14 @@ a:hover{
     }
     .items-item1{
 /*         flex-direction: column; */
-        flex-basis: 50%;
+/*         flex-basis: 50%; */
     }
     .Options-Option1{
         order: 1;
+    }
+    img.logo {
+    top: 3px;
+    position: relative;
     }
     .Options-Option2{
         order: 2;
@@ -991,7 +995,7 @@ a:hover{
         flex-basis: 50%;
         display: flex;
         align-content: flex-start;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
 
     }
