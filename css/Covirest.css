@@ -1106,8 +1106,9 @@ a:hover{
         height: nullpx;
         /* justify-content: space-evenly; */
     }
-    .volunteer{
-        width: auto;
+    .volunteer {
+    width: auto;
+    height: auto;
     }
     .Pandemic-Corona{
         height: max-content;
@@ -1155,7 +1156,7 @@ a:hover{
     } */
     .Becomes-Dona1{
         width: auto;
-        height: 7b4px;
+        height: 74px;
     }
     .Becomes-Keen1{
         width: auto;
