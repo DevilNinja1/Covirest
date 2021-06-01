@@ -65,7 +65,10 @@ header{
     border-radius: 0px;
 
 }
-
+img.logo {
+    position: relative;
+    top: 2px;
+}
 nav ul li{
     display: inline;
 }
@@ -422,8 +425,9 @@ img.Doctor\'sFamily{
 .Treatmentt{
     height: 51px;
     width: 613px;
-    left: 0px;
-    top: 0px;
+    position: relative;
+    left: -8px;
+    top: -44px;
     border-radius: nullpx;
 
     font-family: Inter;
@@ -778,7 +782,7 @@ h3{
 .Becomes-Dona1{
 
 
-    height: 20vh;
+    height: 85px;
     left: 39px;
     top: 0px;
     border-radius: nullpx;
@@ -1188,14 +1192,13 @@ a:hover{
 @media (min-width:900px) and (max-width:1180px){
     header{
         width: 1290px;
-        height: auto;
-        /* padding: 10px; */
-
+        height: 70px;
+        padding: 10px 12px;
     }
     
     .container1{
         display: flex;
-        flex-flow: row wrap;
+        flex-direction: row;
         width: auto;
         height: auto;
 
@@ -1203,6 +1206,10 @@ a:hover{
     .items-item1{
         flex-direction: row;
         flex-basis: 70%;
+    }
+    img.logo {
+    position: relative;
+    top: 3px;
     }
     .items-item2{
         flex-direction: row;
@@ -1324,6 +1331,7 @@ a:hover{
     
     .Treatmentt{
         width: max-content;
+        top: -12px;
 
     }
     .Interventions{
@@ -1534,6 +1542,8 @@ a:hover{
     
     .Treatmentt{
         width: max-content;
+        left: 0px;
+        top: 2px;
 
     }
     .Interventions{
@@ -1559,6 +1569,7 @@ a:hover{
     }
     .volunteer{
         width: auto;
+        height:0px;
     }
     .Pandemic-Corona{
         height: max-content;
@@ -1575,7 +1586,13 @@ a:hover{
         margin-top: 100px;
     }
     .Doctors-Doctor1{
-        margin-top: 390px;
+        margin-top: 100px;
+    }
+    .Doctors-Doctor2{
+        margin-top: 16px;
+    }
+    .Doctors-Doctor3{
+        margin-top: 16px;
     }
     .BigBox5{
         width: 900px;
@@ -1788,6 +1805,8 @@ a:hover{
     }
     .BigBox5{
         width: 650px;
+        padding:80px 120px;
+        height:464px;
     }
     .container6{
         display: flex;
@@ -1802,7 +1821,7 @@ a:hover{
         width: auto;
         overflow: hidden;
         text-overflow: clip;
-        height: auto;
+        height: 67px;
 
     }
     .Becomes-Keen1{
@@ -1814,7 +1833,7 @@ a:hover{
     }
     footer{
         padding: 5px;
-        margin-top: 100px;
+/*         margin-top: 100px; */
         width: 650px;
     }
     .container7{
