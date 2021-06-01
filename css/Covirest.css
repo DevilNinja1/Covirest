@@ -1482,7 +1482,7 @@ a:hover{
         order: 2;
     }
     .BigBox2{
-        padding: 20px;
+        padding: 80px 20px;
         height: 800px;
         width: 900px;
         /* margin-top: 135px; */
@@ -1494,7 +1494,7 @@ a:hover{
         align-items: normal ;
         /* padding: 10px; */
         margin: 0px;
-        margin-top: 170px;
+/*         margin-top: 170px; */
     }
     .groups-group1{
         width: 100px;
@@ -1518,10 +1518,10 @@ a:hover{
         order: 2;
         margin-top: 100px;
     }
-    .BigBox3{
-        padding: 30px;
-        width: auto;
-        height: 900px;
+    .BigBox3 {
+    padding: 101px 12px;
+    width: auto;
+    height: 738px;
     }
     .container4{
         display: flex;
